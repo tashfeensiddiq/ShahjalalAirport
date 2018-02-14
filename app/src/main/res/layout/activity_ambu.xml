@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ambu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.nerd.shahjalalairport.activites.AmbuActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="10dp"
+                android:text="\nR&amp;R Aviation : +8801730642746"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9" />
+
+            <TextView
+                android:layout_margin="10dp"
+                android:text="Square Air :  +8801713185352"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8" />
+
+            <TextView
+                android:layout_margin="10dp"
+                android:text="Arirang Air : +8801720522616"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8" />
+
+            <TextView
+                android:layout_margin="10dp"
+                android:text="Location: Located in the south side of the air port,adjacent to VVIP terminal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

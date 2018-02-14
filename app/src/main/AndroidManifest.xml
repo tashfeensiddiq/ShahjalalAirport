@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.nerd.shahjalalairport">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.app.nerd.shahjalalairport.permission.READ_GSERVICES" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".activites.MainActivity">
+
+        </activity>
+        <activity android:name=".activites.ScheduleActivity" />
+        <activity android:name=".activites.HotelsActivity" />
+        <activity android:name=".activites.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activites.PoliceActivity" />
+        <activity android:name=".activites.AboutActivity" />
+        <activity android:name=".activites.AirlinesActivity" />
+        <activity android:name=".activites.AmbuActivity" />
+        <activity android:name=".activites.ARMEDActivity" />
+        <activity android:name=".activites.Custom2Activity" />
+        <activity android:name=".activites.DirectorActivity" />
+        <activity android:name=".activites.DoctorActivity" />
+        <activity android:name=".activites.DutyActivity" />
+        <activity android:name=".activites.FoodActivity" />
+        <activity android:name=".activites.JetActivity" />
+        <activity android:name=".activites.LostActivity" />
+        <activity android:name=".activites.LuggageandwrappingActivity" />
+        <activity android:name=".activites.MagistrateActivity" />
+        <activity android:name=".activites.MoneyExchangeActivity" />
+        <activity
+            android:name=".activites.MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
+    </application>
+
+</manifest>

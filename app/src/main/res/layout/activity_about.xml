@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.nerd.shahjalalairport.activites.AboutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="10dp"
+                android:text="\n\nShah Jalal International Airport is the largest and main airport in Bangladesh located in Uttara, 11 miles (17 kilometres) from Dhaka city. A relatively new airport, Shah Jalal International was named in honour of Muslim Sufi Shah Jalal.\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9" />
+
+            <TextView
+                android:layout_margin="10dp"
+                android:text="\nThe airport is a primary air travel gateway into Bangladesh. The airport is well equipped with terminal buildings, hangers, sophisticated ra Biman Bangladesh Airlines operates to almost all major cities of the world. Shah Jalal Airport has terminal buildings, hangars, technical areas, a freight village (warehouse), and other modern equipment for handling aircraft. It connects almost all the major cities of the world with Bangladesh."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

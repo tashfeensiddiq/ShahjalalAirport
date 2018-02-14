@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_airlines"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.nerd.shahjalalairport.activites.AirlinesActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="10dp"
+                android:text="List of Airlines to/form Shah jalal international airport\n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9" />
+
+            <TextView
+                android:layout_margin="10dp"
+                android:text="\n     Air Arabia\n     Air-India Express\n     AirAsia\n     Biman Bangladesh Airlines\n     China Eastern Airlines\n     China Southern Airlines\n     Dragonair\n     Druk Air\n     Emirates Airline\n     Etihad Airways\n     GMG Airlines\n     Gulf Air\n     Jet Airways\n     Kuwait Airways\n     Kingfisher Airlines\n     Malaysia Airlines\n     Royal Bengal Airlines\n     Saudi Arabian Airlines\n     Singapore Airlines\n     Thai Airways International"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

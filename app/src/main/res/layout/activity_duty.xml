@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_duty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.nerd.shahjalalairport.activites.DutyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="10dp"
+                android:text="\nLocation: Duty free shops are located before and after crossing immigration area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9" />
+
+            <TextView
+                android:layout_margin="10dp"
+                android:text="\nParjatan Corp. Shop: +88028901150"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9" />
+
+            <TextView
+                android:layout_margin="10dp"
+                android:text="\nParjatan Corp. Shop: +88028901022"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9" />
+
+            <TextView
+                android:layout_margin="10dp"
+                android:text="\nSkylux Duty Free: +88028901887"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9" />
+
+            <TextView
+                android:layout_margin="10dp"
+                android:text="\nSarban Duty Free: +88028901168"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
